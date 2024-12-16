@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./employee.html">Employees</a></li>
+            <li><a href="./wishlist.html">Wishlist</a></li>
+        </ul>
+    </nav>
+    
+<h1>Official gift request form</h1>
+<div class="wishlistPage">
+
+<div class="wishlist">
+<div class="name">
+        <br>
+        <br>
+    <form action="/action_page.php">
+    <label for="myName"><b>My name is:</b></label>
+        <br>
+    <Input type="text" id="myName" name="myName" placeholder="Enter name here">
+        <br>
+        <br>
+    <label for="live"><b>I live in:</b></label>
+        <br>
+    <input type="live" id="live" name="live" placeholder="Enter where you live">
+        <br>
+        <br>
+    <label for="birthdate"><b>My birthdate:</b></label>
+        <br>
+    <input type="date" id="birthdate" name="birthdate">
+    </form>
+</div>
+
+<br>
+
+<div class="naugthyNice">
+    <p><b>This year I've been:</b></p>
+        <input type="radio" id="naugthy" name="naugthy" value="naugthy">
+        <label for="naugthy">Naugthy</label>
+        <input type="radio" id="nice" name="nice" value="nice">
+        <label for="nice">Nice</label>
+        <input type="radio" id="both" name="both" value="both">
+        <label for="both">Both</label>
+</div>
+
+<br>
+
+<div class="wishes">
+    <label for="wish1"><b>My wish list:</b></label>
+        <br>
+        <br>
+    <Input type="text" id="wish1" name="wish1" placeholder="First wish">
+        <br>
+        <br>
+    <input type="wish2" id="wish2" name="wish2" placeholder="Second wish">
+        <br>
+        <br>
+    <input type="wish3" id="wish3" name="wish3" placeholder="Third wish">
+</div>
+
+<br>
+
+<div class="delivery">
+    <label for="reason"><b>I would like my present delivered:</b></label>
+        <br>
+    <select id="reason">
+    <option value="desember24">24th of Desember</option>
+    <option value="desember25">25th of Desebmer</option>
+    </select>
+</div>
+
+<br>
+
+<div>
+<label for="phone"><b>Why I've been naugthy, nice og both:</b></label>
+    <br>
+    <br>
+<textarea type="text" id="message" name="message" placeholder="Enter your message" rows="4" cols="50" form="message"></textarea>
+    <br>
+<input type="Submit" value="Send to Santa">
+</div>
+
+</div>
+
+<br>
+<br>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: linear-gradient(to right, red, white);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background:linear-gradient(to right,red, white);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    position: relative; 
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+    transition: max-height 0.3s ease;
+}
+
+.menu li {
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0.75rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: rgb(126, 7, 7);
+}
+
+h1{
+    text-align: center;
+}
+
+.employeeCard img{
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: column;
+}
+
+.wishlistPage{
+    background-color:white;
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.SantasHomePage{
+    background-color: white;
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.employeeCard{
+    background-color: white;
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
